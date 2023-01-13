@@ -1,0 +1,18 @@
+body{
+    background: rgb(62,38,30);
+    background: linear-gradient(99deg, rgba(62,38,30,1) 0%, rgba(88,42,30,1) 51%);
+    font-family: sans-serif;
+   }
+   #checkout{
+      display: grid;
+      grid-template-columns: 1;
+      width: 26%;
+      margin: auto;
+      margin-top: 10%;
+   }
+   input,button{
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 10px;
+   }
+   

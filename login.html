@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="./style/login.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="navbar"></div>
+    <div id="container">
+      <div id="register-form">
+        <h2>Register</h2>
+        <form>
+          <input type="text" id="name" placeholder="Name" />
+          <input type="text" id="email" placeholder="Email" />
+          <input type="text" id="username" placeholder="Username" />
+          <input type="password" id="password" placeholder="Password" />
+          <input type="number" id="mobile" placeholder="Mobile" />
+          <input type="text" id="description" placeholder="Description" />
+        </form>
+
+        <button onclick="Register()">Signup</button>
+      </div>
+
+      <div id="login-form">
+        <h2>Login</h2>
+        <form>
+          <input type="text" id="login-username" placeholder="Username" />
+
+          <input type="number" id="login-password" placeholder="Password" />
+        </form>
+
+        <button onclick="Login()" id="logo" ><a href="meal.html">Login</a></button>
+      </div>
+    </div>
+</body>
+</html>
+<script src="./scripts/login.js" type="module"></script>

@@ -1,0 +1,33 @@
+#items{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:10px;
+    background: rgb(62,38,30);
+    background: linear-gradient(99deg, rgba(62,38,30,1) 0%, rgba(88,42,30,1) 51%);
+    text-align: center;
+    color: white;
+   
+}
+#items img{
+   height:400px;
+   width:400px;
+}
+#items div{
+    text-align: center;
+    margin-top: 50px;
+    font-size: larger;
+    font-weight: bolder;
+}
+.remove{
+    background-color: rgb(144, 232, 112);
+    padding: 5px;
+    width: 20%;
+    font-size: large;
+    cursor: pointer;
+    font-weight: bolder;
+    border: none;
+}
+#items{
+    background-color:rgb(62,38,30) ;
+    height: 100vh;
+}
